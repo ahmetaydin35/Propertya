@@ -18,6 +18,9 @@ const MainLayout = ({ children }) => {
     <GlobalProvider>
       <AuthProvider>
         <html lang='en'>
+          <head>
+            <link rel='icon' href='/house.svg' />
+          </head>
           <body>
             <Navbar />
             <main>{children}</main>
