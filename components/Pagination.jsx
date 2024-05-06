@@ -10,7 +10,7 @@ const Pagination = ({ page, pageSize, totalItems, onPageChange }) => {
   return (
     <section className='container mx-auto flex justify-center items-center my-8'>
       <button
-        className='mr-2 px-2 py-1 border border-gray-300 rounded'
+        className='h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm'
         disabled={page === 1}
         onClick={() => handlePageChange(page - 1)}
       >
@@ -20,7 +20,7 @@ const Pagination = ({ page, pageSize, totalItems, onPageChange }) => {
         Page {page} of {totalPages}
       </span>
       <button
-        className='ml-2 px-2 py-1 border border-gray-300 rounded'
+        className='h-[36px] bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-center text-sm'
         disabled={page === totalPages}
         onClick={() => handlePageChange(page + 1)}
       >
