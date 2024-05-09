@@ -1,0 +1,1 @@
+Next JS & NextAuth & Tailwind
