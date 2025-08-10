@@ -1,1 +1,1 @@
-Next JS & NextAuth & Tailwind & MongoDB
+Next JS & NextAuth & Tailwind & Mongo DB
